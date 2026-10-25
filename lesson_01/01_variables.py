@@ -1,7 +1,10 @@
 """Урок 1, крок 1. Змінні — іменовані коробки зі значеннями."""
+burger = 87.055234
+#print("price burger:", burger)
+
 
 # str: текст (string).
-name = "Андрій"
+name = "Богдан"
 city = "Львів"
 
 # int: ціле число (integer).
@@ -11,7 +14,7 @@ age = 20
 height_meters = 1.78
 
 # bool: логічне значення — тільки True або False.
-likes_python = True
+likes_python = False
 
 print("Ім'я:", name)
 print("Місто:", city)
@@ -20,10 +23,10 @@ print("Зріст:", height_meters)
 print("Подобається Python:", likes_python)
 
 # f-рядок дає змогу вставляти значення всередину тексту.
-print(f"Мене звати {name}, мені {age} років, я з міста {city}.")
+#print(f"Мене звати {name}, мені {age} років, я з міста {city}.")
 
 # Змінні можна змінювати.
-age = age + 1
+age += 1
 print(f"Наступного року (за нашим прикладом) мені буде {age} рік/років.")
 
 # type() показує тип значення.
@@ -39,3 +42,5 @@ print("Склеювання тексту:", "5" + "5")
 # 2. Створи змінну favorite_food і надрукуй її у f-рядку.
 # 3. Що станеться, якщо записати age = "20" і виконати age + 1?
 #    Передбач, потім перевір і поверни код у робочий стан.
+favorite_food = "pizza"
+print(f"my fav food: {favorite_food}")
